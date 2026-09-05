@@ -3,4 +3,4 @@ eval_list=[]
 for i in nums:
     if i%2==0:
         eval_list.append(i)
-print(f"打印出来的偶数列表是{eval_list}")
+print(f"偶数列表结果是{eval_list}")
