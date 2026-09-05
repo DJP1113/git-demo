@@ -8,7 +8,17 @@ print(f"筛选出来的偶数列表是{eval_list}")
 def cal_sun(a,b):
     toatal=a+b
     return toatal
-
+class Rectange(object):
+    def __init__(sel,a,b):
+        self.length=a
+        self.width=b
+    def get_area(self):
+        return self.length*self.width
+    def get_perimeter(self):
+        return 2*(self.length+self.width)
+retangle=Rectangle(5,10)
+print(retangle.get_area())
+print(retangle.get_perimeter())
 if __name__=="__main__":
     num=10
     num2=18
