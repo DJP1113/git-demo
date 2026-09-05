@@ -4,3 +4,4 @@ for i in nums:
     if i%2==0:
         eval_list.append(i)
 print(f"偶数列表结果是{eval_list}")
+
