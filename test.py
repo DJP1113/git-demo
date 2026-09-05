@@ -14,3 +14,4 @@ if __name__=="__main__":
     num2=18
     res=cal_sun(num1,num2)
     print("计算结果是{res}")
+
