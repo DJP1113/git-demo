@@ -24,4 +24,18 @@ if __name__=="__main__":
     num2=18
     res=cal_sun(num1,num2)
     print("计算结果是{res}")
+nums2=[1,-5,8,-3,10,14]
+def outer(fn):
+    def inner(name):
+        print(f"新产生的列表是{fn(name)}")
+    return inner
+@outer
+def funa(nums):
+    a=[]
+    for i in nums:
+        if i>=0:
+            a.append(i)      
+    return a
+funa(nums2)
+
 
